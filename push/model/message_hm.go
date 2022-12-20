@@ -65,7 +65,7 @@ type AndroidNotification struct {
 	VibrateConfig      []string       `json:"vibrate_config,omitempty"`
 	Visibility          string         `json:"visibility,omitempty"`
 	LightSettings       *LightSettings `json:"light_settings,omitempty"`
-	ForegroundShow      bool           `json:"foreground_show,omitempty"`
+	ForegroundShow      bool           `json:"foreground_show"`
 }
 
 type ClickAction struct {
