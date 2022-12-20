@@ -73,6 +73,7 @@ type ClickAction struct {
 	Intent       string `json:"intent,omitempty"`
 	Action       string `json:"action,omitempty"`
 	Url          string `json:"url,omitempty"`
+	RichResource string `json:"rich_resource,omitempty"`
 }
 
 type BadgeNotification struct {
